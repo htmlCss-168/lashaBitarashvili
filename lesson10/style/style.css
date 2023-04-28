@@ -1,0 +1,259 @@
+:root{
+    --globalFontSize:22px;
+    --myfavoritecolor: green;
+}
+
+#head::first-letter{
+    font-size: 48px;
+    color: red;
+}
+
+#head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white; 
+   font-size: 40px;
+}
+
+.head2 a{
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.head2{
+    background-color: rgb(135, 135, 210);
+    border-radius: 15px;
+    border: solid 1px rgb(58, 50, 50);
+    margin-bottom: 30px;
+}
+
+.head2 a:hover{
+    font-size:22px;
+    color: red;
+}
+
+.head3{
+    font-size: 30px;
+    
+}
+
+header{
+    background-color: rgb(61, 58, 58);
+    border-radius: 15px;
+}
+
+
+.head3 button{
+    width: 100px;
+}
+
+.head3 button:hover{
+    background-color: red;
+}
+.head3 img:hover{
+    background-color: white;
+}
+
+.head3 input:hover{
+    color: red;
+}
+.head3 input{
+    text-align: center;
+}
+
+.mainhead{
+    display: flex;
+    justify-content: center;
+}
+
+.main100{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+main h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main1{
+    width: 600px;
+    height: 130px;
+    background-color: slategray;
+    border-radius: 15px;
+    border: solid 4px black;
+   
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+}
+
+.main2 img{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.main3{
+   display: flex;
+   justify-content: center;
+}
+
+.main2 img:hover{
+    transform: rotate(10deg)
+}
+.main1 p{
+    text-align: center;
+}
+
+.main1 p::before{
+    color:rgb(63, 45, 80);
+    content: "  @   ";
+}
+
+.text p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.text{
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+.text p::after{
+    content: "     yes or no   ";
+   color: red;
+   font-size: 20px;
+}
+
+.text p::selection{
+   background-color: aqua;
+   color: red; 
+}
+
+
+#l2{
+    color: rgb(10, 53, 102);
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    animation-name: mymove;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+@keyframes mymove {
+    0%   {top: 0px;  width: 100px;}
+    100% {top: 100%;  width: 100%;}
+    
+  }
+
+  .img1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .img1 img{
+    
+    border-radius: 30px;
+    border: solid 2px red;
+    margin: 15px;
+  }
+  
+.img1 img:hover{
+    transform: rotate(10deg);
+    border: dashed 2px blue;
+}
+
+#text1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    padding: 15px;
+    background-color:rgb(145, 134, 203) ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-item{
+    background-color: rgba(198, 173, 141, 0.814);
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item:hover{
+    background-color: red;
+}
+
+
+.footer1{
+border: solid 3px black;
+height: 300px;
+background-color:rgb(61, 58, 58);
+border-radius: 5px;
+
+}
+
+.footer1 h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns:100px  100px 100px 100px 100px   ;
+    column-gap: 10px;
+    row-gap: 10px;
+   
+}
+
+.grid-container1 img{
+    margin: 5px;
+    border-radius: 15px;
+    border: solid 2px red;
+}
+
+
+.footer2{
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 img:hover{
+    transform: rotate(10deg);
+    border: dashed 2px blue;
+
+}
+
+
+.footer3 a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.footer3 a:hover{
+    color: red;
+}
+
+
+body{
+    background-color: aquamarine;
+}
