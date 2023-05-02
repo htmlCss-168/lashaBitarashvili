@@ -1,0 +1,264 @@
+body{
+    background-color: #cccccc;
+}
+
+
+#tittle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px;
+    background-color: rebeccapurple;
+    text-align: center;
+    color:rgb(207, 183, 183) ;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.head{
+    text-align: center;
+   
+}
+
+
+.head a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    border-radius: 15px;
+    color: white;
+}
+
+.head a:hover{
+    background-color: white;
+    color: black;
+    transition: background 2s, color 2s, padding 0.5s;
+    padding: 15px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.img1 img{
+   border: solid 2px white;
+   border-radius: 30px;
+   margin: 10px;
+   cursor: pointer;
+}
+
+.img1 img:hover{
+    margin: 15px;
+    transition:margin 0.5s;
+}
+
+.img2{
+    position: fixed;
+    display: block;
+    cursor: pointer;
+    
+    
+}
+.img2 img{
+    margin-top: 20px;
+    display: block;
+    border-radius: 15px;
+    border: solid 2px black;
+
+}
+
+.img2 img:hover{
+    background:rgba(57, 220, 20, 0.903);
+    transition: background 3s, margin-left 1s; 
+    margin-left: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    padding: 15px;
+    background-color:rgb(134, 122, 122) ;
+    column-gap: 5px;
+    row-gap: 5px;
+    border-radius: 20px;
+}
+
+
+.grid-item{
+    background-color: rgba(198, 173, 141, 0.814);
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.grid-item:hover{
+    background-color: white;
+    padding: 15px;
+    transition: background 1.5s, padding 0.5s ;
+}
+
+
+
+.grid-container2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:auto auto auto auto  ;
+    padding: 15px;
+    column-gap: 50px;
+    row-gap: 10px;
+}
+
+.grid-item1{
+    border: solid 4px black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.grid-item1:hover{
+    transform: rotate(5deg);
+    
+}
+
+
+.kino{
+    text-align: center;
+}
+
+.kino h1{
+    text-shadow: 1px 2px;
+}
+
+.kino p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kino h1::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+.kino1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+form{
+    background-color: rgba(198, 173, 141, 0.814);
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.wraper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:5px;
+    text-align: center;
+    cursor: pointer;
+}
+#username {
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#password{
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(125, 125, 207);
+    color: white;
+    cursor: pointer;
+}
+
+
+.login{
+    width: 300px;
+   
+}
+
+
+.login1{
+    display: flex;
+    justify-content: center;
+}
+
+
+#submit:hover{
+    color: black;
+    background-color: white;
+    transition: background 2s, color 2s;
+}
+.mainfot{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.foter{
+    width: 100%;
+    height: 300px;
+    border: solid black 3px;
+    border-radius: 20px;
+    background-color: rgba(198, 173, 141, 0.814);;
+    
+}
+
+.foter1{
+    display: flex;
+    justify-content: space-between;
+}
+.foter1 h1{
+    margin-left: 30px;
+}
+
+.foter h1::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+
+.foter2 img{
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 15px;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.foter2 img:hover{
+    transform: rotate(10deg);
+    border: dashed 3px red;
+    padding: 3px;
+    transition: border 1s, padding 1s ;
+}
+
+
+.foter3{
+    margin-bottom: 2000px;
+}
+
+.foter1 img{
+    border-radius: 15px;
+}
+
+.foter4 {
+    margin-left:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline rgb(228, 207, 207);
+}
