@@ -1,0 +1,501 @@
+.head1{
+    display:flex;
+    cursor: pointer;
+}
+
+.head1 p{
+    padding: 10px;
+}
+
+
+.head3{
+    display: flex;
+    justify-content: space-between;
+}
+.head2{
+    margin-right: 15px;
+}
+
+.head2 img{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.line{
+    width:100%;
+    border: solid 1px rgb(244, 235, 68);
+}
+
+.head4{
+    display: flex;
+    justify-content: center;
+}
+
+#font{
+    font-family:font;
+    font-size: 30px;
+}
+#font::first-letter{
+    color: red;
+}
+
+@font-face{
+    font-family: font;
+    src: url("/style/font1/YamakaPersonalUsed-VGrrx.otf");
+}
+
+.line2{
+    width: 10px;
+    height: 10px;
+    border: solid 2px rgb(244, 235, 68);
+    margin-top: 37px;
+    background-color: rgb(244, 235, 68);
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.search input{
+    border: solid 4px rgb(244, 235, 68);
+    background-color: #c3c4c7;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    padding: 15px;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+
+.griditem{
+    background-color:#f6f7f7;
+    border: 0px solid rgb(0, 0, 0, 0.8);
+    padding: 12px;
+    font-size: 17px;
+    text-align: center;
+    font-family:serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.griditem::first-letter{
+    color: red;
+    font-size: 20px;
+}
+
+.griditem:hover{
+    background-color: #cbcdd5;
+    transition: background 2s;
+}
+
+.shop{
+    display: flex;
+    justify-content: end;
+}
+
+.shop img{
+    padding: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.ganlageba{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container1{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 5px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.grid-container1 img{
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.top {
+    position: absolute;
+    left: 16px;
+    margin-top: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .top:hover{
+    color: rgb(92, 87, 87);
+  }
+
+  .top1 {
+    position: absolute;
+    margin-top: 330px;
+    left: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    cursor: pointer
+  }
+  .top1:hover{
+    color: rgb(92, 87, 87);
+  }
+
+  .top2 {
+    position: absolute;
+    margin-top: 520px;
+    left: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .top2:hover{
+    color: rgb(92, 87, 87);
+  }
+
+.img2{
+    position: fixed;
+    top: 90px;
+    
+}
+
+
+.img2 img{
+    display: block;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img2 img:hover{
+    margin-left: 15px;
+    width: 26px; height: 26px;
+    transition: margin-left 1s;
+}
+
+#satauri::first-letter{
+    color: red;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#paragaph::selection{
+    color: rgb(221, 124, 124);
+    background-color:rgb(92, 87, 87); 
+}
+
+.brand{
+    width: 250px;
+    margin: 30px;
+}
+.brand img{
+    border: solid 2px black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.brand img:hover{
+    padding: 5px;
+    transition: padding 1s;
+}
+
+.brand2{
+    display: flex;
+    justify-content: center;
+}
+
+.brand2 p{
+    text-align: center;
+    font-family:serif ;
+}
+
+.line3{
+    width:100%;
+    border: solid 1px rgb(244, 235, 68);
+}
+
+.mainbuy{
+    display: flex;
+    justify-content: center;
+}
+
+.mainbuy img{
+    border: solid 2px black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.mainbuy img:hover{
+   margin: 3px;
+   transition: margin 0.5s;
+}
+
+.mainbuy div{
+    margin: 20px;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbuy button{
+    background-color:rgb(244, 235, 68);
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border: solid 0px black;
+}
+
+.mainbuy button:hover{
+    background-color: black;
+    color: white;
+    transition: background 1s, color 1s;
+}
+
+
+#mostsale{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mostsale::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+.mainbuy2{
+   
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainbuy2 img{
+    cursor: pointer;
+}
+.mainbuy2 img:hover{
+    padding: 3px;
+    transition: padding 0.5s;
+}
+.mainbuy2 div{
+    margin: 25px;
+}
+
+.buy2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbuy2 button{
+    background-color:rgb(244, 235, 68);
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border: solid 0px black;
+}
+
+.mainbuy2 button:hover{
+    background-color: black;
+    color: white;
+    transition: background 1s, color 1s;
+}
+
+#xazi{
+    text-decoration: line-through;
+}
+
+#witelixazi{
+    color: red;
+    font-size: 20px;
+}
+
+
+.wertili{
+    display: flex;
+    justify-content: center;
+}
+
+.infofull{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.info{
+    width:1200px ;
+    height:220px ;
+    border-radius: 15px;
+    background:  #d13d3d;
+    display: flex;
+    justify-content:center ;  
+    
+}
+
+.info1{
+    width: 250px;
+    margin: 30px;
+}
+
+.info1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.info1 img{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* .foterfull{
+    display: flex;
+    justify-content: center;
+} */
+
+/* .foter{
+    width:800px ;
+    height: 80px;
+    background-color:rgb(188, 94, 94);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+} */
+
+
+/* .foterimg img{
+    margin: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.foter1{
+    /* width:100% ; */
+    /* height: 300px; */
+    background-color:#dbe6e6;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    padding: 15px;
+    column-gap:200px;
+    /* row-gap: 5px; */
+    
+    
+    
+}
+
+form{
+    background-color: #c3c4c7;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.wraper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:5px;
+    text-align: center;
+    cursor: pointer;
+}
+#username {
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#password{
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(125, 125, 207);
+    color: white;
+    cursor: pointer;
+}
+
+
+.login{
+    width: 300px; 
+    
+}
+
+#submit:hover{
+    color: black;
+    background-color: rgb(244, 235, 68);
+    transition: background 2s, color 2s;
+}
+
+#pay{
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.information img{
+    border: solid 2px black;
+    
+}
+
+.information a{
+    text-decoration: none;
+    color: black;
+}
+
+.information a:hover{
+    color:hsl(57, 41%, 55%);
+    transition: color 0.5s;
+}
+
