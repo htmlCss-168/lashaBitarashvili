@@ -1,1 +1,76 @@
-<h1>Give me diplom MR.Michael</h1>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style/loginsuccess.css">
+    </head>
+
+<body>
+    
+    <main>
+        
+    
+
+
+ <div class="login1">
+    <div class="login">
+        <h1>Authorization <img width="25px" height="25px" src="fonts\check-solid (1).svg" alt=""></h1>
+        <form onsubmit="Login()">
+            <div class="wraper">
+                <label id="username">username</label>
+                <input type="text" id="Inputusername" placeholder="username">
+                <label id="password">password</label>
+                <input type="passsword" id="Inputpassword" placeholder="password">
+                <input id="submit" type="submit" value="login"> 
+            </div>
+        </form>
+    </div>
+</div>
+       
+    
+    </main>
+            <script type="text/Javascript">
+                function Sayhello() {
+                    alert("Hello world");
+                }
+    
+               
+    
+    
+                function calculator(num1, num2, operator) {
+                    if (operator == "+") {
+                    return num1+num2;                    
+                    } else if (operator == "-") {
+                        return num1-num2;
+                    } else if (operator == "*") {
+                        return num1*num2;
+                    } else if (operator == "/") {
+                        return num1/num2;
+                    } else {
+                        return "invalid operator";
+                    }
+                }
+    
+               
+    
+    
+                var dummydata = document.getElementById("dummy").innerHTML;
+                
+                
+    
+                function Login() {
+                    var username = document.getElementById("Inputusername").value;
+                    var password = document.getElementById("Inputpassword").value;
+                    event.preventDefault();
+                    if (username == "sevasti" && password == "sevasti") {
+                        
+                        window.location.href = "/loginSuccess1.html";
+                    } else {
+                        
+                        window.location.href = "/loginFailed.html";
+                    }
+                }
+            </script>
+
+
+</body>
+
+</html>
