@@ -125,90 +125,11 @@
 }
 
 
-
-
-
-main{
-    display: flex;
-    justify-content: center;
-    
-}
-
-
-
-
-.login h1{
+main h1{
     text-align: center;
+    text-shadow: 2px 2px;
+    font-size: 50px;
 }
-
-form{
-    background-color: rgba(198, 173, 141, 0.814);
-    padding: 20px;
-    border-radius: 20px;
-   
-}
-
-.wraper{
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap:5px;
-    text-align: center;
-    cursor: pointer;
-}
-#Inputusername {
-    padding: 10px;
-    border-radius: 10px;
-    
-}
-
-#Inputpassword{
-    padding: 10px;
-    border-radius: 10px;
-    
-}
-
-#submit{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(125, 125, 207);
-    color: white;
-    cursor: pointer;
-}
-
-
-.login{
-    width: 300px;
-   
-}
-
-
-.login1{
-    display: flex;
-    justify-content: center;
-}
-
-#submit:hover{
-    color: black;
-    background-color: rgb(244, 235, 68);;
-    transition: background 2s, color 2s;
-}
-
-
-
-
-
-
-
-#login1:hover{
-    background-color: rgb(244, 235, 68);
-    transition: background 2s;
-}
-
-
-
-
-
-
 
 
 
@@ -282,23 +203,3 @@ form{
 }
 
 
-.img2{
-    position: fixed;
-    top: 90px;
-    
-}
-
-
-.img2 img{
-    display: block;
-    margin: 5px;
-    border: solid 2px black;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.img2 img:hover{
-    margin-left: 15px;
-    width: 26px; height: 26px;
-    transition: margin-left 1s;
-}

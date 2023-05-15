@@ -124,73 +124,82 @@
     background-color: rgb(244, 235, 68);
 }
 
+#font{
+    font-family:font;
+    font-size: 30px;}
+
+
+    @font-face{
+        font-family: font;
+        src: url("/style/font1/YamakaPersonalUsed-VGrrx.otf");
+    }
 
 
 
 
-main{
+
+
+.flex{
     display: flex;
-    justify-content: center;
+    column-gap: 70px;
     
-}
-
-
-
-
-.login h1{
-    text-align: center;
-}
-
-form{
-    background-color: rgba(198, 173, 141, 0.814);
-    padding: 20px;
-    border-radius: 20px;
    
 }
 
-.wraper{
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap:5px;
+
+
+.gadaxda{
+    width: 30%;
+}
+
+.gadaxda li{
+    border: solid 2px black;
     text-align: center;
-    cursor: pointer;
-}
-#Inputusername {
-    padding: 10px;
-    border-radius: 10px;
-    
-}
-
-#Inputpassword{
-    padding: 10px;
-    border-radius: 10px;
-    
-}
-
-#submit{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(125, 125, 207);
+    background-color: rgb(18, 18, 84);
     color: white;
-    cursor: pointer;
 }
 
 
-.login{
-    width: 300px;
-   
+.ganvadeba{
+    width: 30%;
 }
 
+.ganvadeba p{
+    border: solid 2px black;
+    text-align: center;
+    background-color:rgb(18, 18, 84); 
+    color: white;
+}
 
-.login1{
-    display: flex;
+.imggrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
+    column-gap:30px;
+    row-gap: 10px;
 }
 
-#submit:hover{
-    color: black;
-    background-color: rgb(244, 235, 68);;
-    transition: background 2s, color 2s;
+.imggrid img{
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.imggrid img:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+
+.dabruneba{
+    width: 30%;
+}
+
+.dabruneba li{
+    border: solid 2px black;
+    text-align: center;
+    background-color: rgb(18, 18, 84);
+    color: white;
+    
 }
 
 
@@ -199,10 +208,19 @@ form{
 
 
 
-#login1:hover{
-    background-color: rgb(244, 235, 68);
-    transition: background 2s;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -280,6 +298,9 @@ form{
     border-radius: 15px;
     border: solid 2px black;
 }
+
+
+
 
 
 .img2{

@@ -455,6 +455,16 @@
     transition: background 2s, color 2s;
 }
 
+.send input{
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
+.send button{
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
 
 
 
@@ -538,12 +548,16 @@
     margin-left: -80%;
 }
 
-.send input{
-    border-radius: 15px;
-    border: solid 2px black;
-}
 
-.send button{
-    border-radius: 15px;
-    border: solid 2px black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
